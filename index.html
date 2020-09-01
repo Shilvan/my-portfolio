@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shilvan</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <meta name="viewport" content ="width=device-width,initial-scale=1.0,user-scalable=yes" />
+
+  <link rel="shortcut icon" href="static/logo.ico">
+
+  <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="static/css/portfolio.css">
+
+</head>
+
+<body>
+
+  <nav class="expanded-nav nav-style-1">
+    <a class="navbar-logo">SHILVAN</a>
+  </nav>
+
+ <nav class="expanded-nav nav-bottom">
+    <ul class="navbar-list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#work" class="blink-me">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      
+    </ul>
+  </nav>
+
+  <main>
+    <div class="work-display-wrapper">
+      <div class="work-display-background">
+        <svg class="options-logo" id="close-work" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0V0z" fill="none"/>
+            <path d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/>
+          </svg>
+
+          <div class="work-display">
+        
+            <div>
+              <h1 id="title"></h1>
+              <h2>Overview</h2>
+              <p id="description"></p>
+              <a class="general-btn bordered-btn" id="demo-btn">Live View</a>
+              <a class="general-btn bordered-btn" id="code-btn">Source Code</a>
+              <h2>Technologies Used</h2>
+              <ul class="tech-used">
+              </ul>
+              <h2>More Details</h2>
+              <p id="more-details"></p>
+            </div>
+            
+          </div>
+        
+      </div>
+      
+    </div>
+    
+
+    <section class="align-middle" id="home">
+      <!--<div></div>-->
+      <div>
+        <div class="boxed-text"><p>I'm Shilvan, a Software Developer, currently studying Computer Science.</p></div>
+        <a href="static/cv.pdf" class="general-btn link-btn">Download CV</a>
+      </div>
+    </section>
+      
+    <section id="work">
+      <h1><a class="breadcrumb-active">Work</a></h1>
+
+      <ul class="project-grid">
+        <li>
+          <a class="project-link" id="booking">
+           <div class="project-label">Booking</div>
+           <div class="img-project"></div>
+          </a>
+        </li>
+        <li>
+          <a class="project-link" id="ecommerce">
+           <div class="project-label">E-Commerce</div>
+           <div class="img-project"></div>
+            
+          </a>
+        </li>
+        <li>
+          <a class="project-link" id="calculator">
+            <div class="project-label">C# Calculator</div>
+            <div class="img-project"></div>
+          </a>
+        </li>
+        <li>
+          <a class="project-link" id="portfolio">
+            <div class="project-label">My Portfolio</div>
+            <div class="img-project"></div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+
+    <section id="contact" class="align-middle">
+       <h1><a class="breadcrumb-active">Contact</a></h1>
+
+       <div class="links-container">
+          <h4>EMAIL:</h4>
+          <a href="mailto:5.shilvandacosta@gmail.com" class="external-link">5.shilvandacosta@gmail.com</a>
+          <h4>GITHUB:</h4>
+          <a href="https://github.com/shilvan" class="external-link">www.github.com/shilvan</a>
+       </div> 
+    </section>
+    
+  </main>
+
+  <div class="height-style-1"></div>
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="static/js/inputmask/dist/jquery.inputmask.js"></script>
+  <script src="static/js/inputmask/dist/bindings/inputmask.binding.js"></script>
+
+  <script src="static/js/portfolio.js"></script>
+
+</body>
+</html>
