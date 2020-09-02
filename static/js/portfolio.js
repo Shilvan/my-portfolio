@@ -28,7 +28,7 @@ var main = function(){
 		$(".tech-used").append('<li>vagrant</li>');
 		$(".tech-used").append('<li>docker</li>');
 		$(".tech-used").append('<li>git</li>');
-		$("#more-details").text("More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything");
+		$("#more-details").text("Got invaluable experience from developing the front end to self-hosting the website on my Linux server. I would highlight designing the database and learning Flask as the most rewarding aspect.");
 
 		$("#demo-btn").css("display", "inline-block");
 		$("#demo-btn").attr("href", "http://www.shilvan.com/cuttem");
@@ -48,7 +48,7 @@ var main = function(){
 		$(".tech-used").append('<li>woo-commerce</li>');
 		$(".tech-used").append('<li>stripe api</li>');
 		
-		$("#more-details").text("More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything");
+		$("#more-details").text("Implemented a Woo-commerce template through Wordpress. It taught me a lot about the platform and its plugins.");
 
 		$("#demo-btn").css("display", "inline-block");
 		$("#demo-btn").attr("href","https://staging.vaxoo.co.uk");
@@ -67,7 +67,7 @@ var main = function(){
 		$(".tech-used").append('<li>c#</li>');
 		$(".tech-used").append('<li>regex</li>');
 		
-		$("#more-details").text("Used Pluralsight courses to learn the basic concepts, best practices… \n This project instilled discipline in me, I used to learn c# before school at around 6 am.");
+		$("#more-details").text("Used Pluralsight courses to learn the basic concepts, best practices… This project instilled discipline in me, I used to learn c# before school at around 6 am.");
 
 		$("#demo-btn").css("display", "none");
 
@@ -86,10 +86,10 @@ var main = function(){
 		$(".tech-used").append('<li>js</li>');
 		$(".tech-used").append('<li>git</li>');
 		
-		$("#more-details").text("More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything");
+		$("#more-details").text("It helped me to learn what it takes to design a html template from zero and get used to version control.");
 
 		$("#demo-btn").css("display", "inline-block");
-		$("#demo-btn").attr("href", "./index.html");
+		$("#demo-btn").attr("href", "https://shilvan.github.io/my-portfolio/");
 		
 
 		$("#code-btn").css("display", "inline-block");
