@@ -67,7 +67,7 @@ var main = function(){
 		$(".tech-used").append('<li>c#</li>');
 		$(".tech-used").append('<li>regex</li>');
 		
-		$("#more-details").text("Used Pluralsight courses to learn the basic concepts, best practices…" +\n +"This project instilled discipline in me, I used to learn c# before school at around 6 am.");
+		$("#more-details").text("Used Pluralsight courses to learn the basic concepts, best practices… \n This project instilled discipline in me, I used to learn c# before school at around 6 am.");
 
 		$("#demo-btn").css("display", "none");
 
