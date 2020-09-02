@@ -5,6 +5,7 @@ var main = function(){
 	$("#close-work").on("click", function(){
 		$(".work-display-wrapper").css("display", "none");
 		$(".tech-used").empty();
+		$("#popup-inner").scrollTop(0);
 
 
 	});
