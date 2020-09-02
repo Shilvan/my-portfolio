@@ -5,19 +5,9 @@ var main = function(){
 	$("#close-work").on("click", function(){
 		$(".work-display-wrapper").css("display", "none");
 		$(".tech-used").empty();
-		$("#popup-inner").scrollTop(0);
-
-
 	});
-
-	$(".project-link").on("click", function(){
-		
-	});
-
 
 	$("#booking").on("click", function(){
-		$(".work-display-wrapper").css("display", "grid");
-
 		$("#title").text("Booking");
 		$("#description").text("A website that allows clients to make bookings, and employees to manage them.");
 		$(".tech-used").append('<li>html</li>');
@@ -34,15 +24,15 @@ var main = function(){
 		$("#demo-btn").css("display", "inline-block");
 		$("#demo-btn").attr("href", "http://www.shilvan.com/cuttem");
 		
-
 		$("#code-btn").css("display", "inline-block");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan/appointment");
+
+		$(".work-display-wrapper").css("display", "grid");
+		$(".work-display").scrollTop(0);
 
 	});
 
 	$("#ecommerce").on("click", function(){
-		$(".work-display-wrapper").css("display", "grid");
-
 		$("#title").text("E-Commerce");
 		$("#description").text("An e-Commerce website.");
 		$(".tech-used").append('<li>wordpress</li>');
@@ -54,15 +44,14 @@ var main = function(){
 		$("#demo-btn").css("display", "inline-block");
 		$("#demo-btn").attr("href","https://staging.vaxoo.co.uk");
 		
-
 		$("#code-btn").css("display", "none");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan");
 
+		$(".work-display-wrapper").css("display", "grid");
+		$(".work-display").scrollTop(0);
 	});
 
 	$("#calculator").on("click", function(){
-		$(".work-display-wrapper").css("display", "grid");
-		
 		$("#title").text("C# Calculator");
 		$("#description").text("An app that uses regex for string manipulation and coded mathematical order and operations to calculate user entries.");
 		$(".tech-used").append('<li>c#</li>');
@@ -75,11 +64,11 @@ var main = function(){
 		$("#code-btn").css("display", "inline-block");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan/csharp-calculator");
 
+		$(".work-display-wrapper").css("display", "grid");
+		$(".work-display").scrollTop(0);
 	});
 
 	$("#portfolio").on("click", function(){
-		$(".work-display-wrapper").css("display", "grid");
-		
 		$("#title").text("My Portfolio");
 		$("#description").text("Portfolio website to display my projects.");
 		$(".tech-used").append('<li>html</li>');
@@ -92,9 +81,11 @@ var main = function(){
 		$("#demo-btn").css("display", "inline-block");
 		$("#demo-btn").attr("href", "https://shilvan.github.io/my-portfolio/");
 		
-
 		$("#code-btn").css("display", "inline-block");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan/my-portfolio");
+
+		$(".work-display-wrapper").css("display", "grid");
+		$(".work-display").scrollTop(0);
 
 	});
 
