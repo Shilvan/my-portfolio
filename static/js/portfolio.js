@@ -43,7 +43,7 @@ var main = function(){
 		$(".work-display-wrapper").css("display", "grid");
 
 		$("#title").text("E-Commerce");
-		$("#description").text("E-Commerce website");
+		$("#description").text("An e-Commerce website.");
 		$(".tech-used").append('<li>wordpress</li>');
 		$(".tech-used").append('<li>woo-commerce</li>');
 		$(".tech-used").append('<li>stripe api</li>');
@@ -63,7 +63,7 @@ var main = function(){
 		$(".work-display-wrapper").css("display", "grid");
 		
 		$("#title").text("C# Calculator");
-		$("#description").text("An app that uses regex for string manipulation and coded mathematical order and operations to calculate user entries");
+		$("#description").text("An app that uses regex for string manipulation and coded mathematical order and operations to calculate user entries.");
 		$(".tech-used").append('<li>c#</li>');
 		$(".tech-used").append('<li>regex</li>');
 		
@@ -80,15 +80,10 @@ var main = function(){
 		$(".work-display-wrapper").css("display", "grid");
 		
 		$("#title").text("My Portfolio");
-		$("#description").text("My portfolio website to display my projects");
+		$("#description").text("Portfolio website to display my projects.");
 		$(".tech-used").append('<li>html</li>');
 		$(".tech-used").append('<li>css</li>');
 		$(".tech-used").append('<li>js</li>');
-		$(".tech-used").append('<li>flask</li>');
-		$(".tech-used").append('<li>python</li>');
-		$(".tech-used").append('<li>postgres</li>');
-		$(".tech-used").append('<li>vagrant</li>');
-		$(".tech-used").append('<li>docker</li>');
 		$(".tech-used").append('<li>git</li>');
 		
 		$("#more-details").text("More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything, More detailed info about everything");
