@@ -21,8 +21,8 @@ var main = function(){
 		$(".tech-used").append('<li>git</li>');
 		$("#more-details").text("Got invaluable experience from developing the front end to self-hosting the website on my Linux server. I would highlight designing the database and learning Flask as the most rewarding aspect.");
 
-		$("#demo-btn").css("display", "inline-block");
-		$("#demo-btn").attr("href", "http://www.shilvan.com/cuttem");
+		$("#demo-btn").css("display", "none");
+		/*$("#demo-btn").attr("href", "http://www.shilvan.com/cuttem");*/
 		
 		$("#code-btn").css("display", "inline-block");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan/appointment");
@@ -45,7 +45,6 @@ var main = function(){
 		$("#demo-btn").attr("href","https://staging.vaxoo.co.uk");
 		
 		$("#code-btn").css("display", "none");
-		$("#code-btn").attr("href", "https://www.github.com/shilvan");
 
 		$(".work-display-wrapper").css("display", "grid");
 		$(".work-display").scrollTop(0);
