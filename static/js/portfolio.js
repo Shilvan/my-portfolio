@@ -22,7 +22,6 @@ var main = function(){
 		$("#more-details").text("Got invaluable experience from developing the front end to self-hosting the website on my Linux server. I would highlight designing the database and learning Flask as the most rewarding aspect.");
 
 		$("#demo-btn").css("display", "none");
-		/*$("#demo-btn").attr("href", "http://www.shilvan.com/cuttem");*/
 		
 		$("#code-btn").css("display", "inline-block");
 		$("#code-btn").attr("href", "https://www.github.com/shilvan/appointment");
